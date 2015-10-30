@@ -2,7 +2,7 @@
 
 define(['jquery'], function ($) {
     var init = function () {
-        $("#Container").html("This was changed by the home.js");
+        $("#Container").html("This was changed by the home js");
     }
 
     return {

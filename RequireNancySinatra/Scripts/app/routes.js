@@ -10,11 +10,15 @@
     function addRoute(url) {
         app.get('#/' + url, function (context) {
             context.render(url, function (output) {
-                $SammyContainer.html(output);
+                $SammyContainer.fadeOut(function () {
+                    $SammyContainer.html(output);
 
-                require([url], function (page) {
-                    page.init();
-                });                
+                    $SammyContainer.fadeIn(function () {
+                        require([url], function (page) {
+                            page.init();
+                        });
+                    });
+                });
             });
         });
     }
