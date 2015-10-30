@@ -1,0 +1,31 @@
+{
+  "name": "RequireNancySammy",
+  "description": "A simple demo of Require, Nancy and Sammy",
+  "main": "./lib/package-name",
+  "authors": [
+    "GianPiero Bresolin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "demo"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "domReady": "*",
+    "requirejs": "*",
+    "sammy": "*",
+    "jquery": "*",
+    "bootstrap": "*"
+  }
+}
