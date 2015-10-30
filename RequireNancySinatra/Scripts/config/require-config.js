@@ -2,6 +2,8 @@
     paths: {
         'app': '../app/app',
         'routes': '../app/routes',
+        'About/Index': '../app/About/index',
+        'Home/Index': '../app/Home/index',
 
         'bootstrap': '../../Lib/bootstrap/js/bootstrap.min',
         'jquery': '../../Lib/jquery/jquery.min',

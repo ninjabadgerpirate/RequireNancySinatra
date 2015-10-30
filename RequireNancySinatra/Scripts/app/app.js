@@ -1,4 +1,4 @@
-﻿define(['jquery', 'sammy'], function ($, Sammy) {
+﻿define(['jquery', 'sammy', 'sammy.template'], function ($, Sammy) {
     "use strict";
 
     var app = Sammy('body');

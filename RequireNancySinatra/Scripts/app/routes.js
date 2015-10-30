@@ -11,6 +11,10 @@
         app.get('#/' + url, function (context) {
             context.render(url, function (output) {
                 $SammyContainer.html(output);
+
+                require([url], function (page) {
+                    page.init();
+                });                
             });
         });
     }

@@ -78,7 +78,9 @@
     <Content Include="Lib\requirejs\require.js" />
     <Content Include="Lib\sammy\sammy.js" />
     <Content Include="Lib\sammy\sammy.template.js" />
+    <Content Include="Scripts\app\About\index.js" />
     <Content Include="Scripts\app\app.js" />
+    <Content Include="Scripts\app\Home\index.js" />
     <Content Include="Scripts\app\routes.js" />
     <Content Include="Scripts\config\require-config.js" />
     <Content Include="Web.config">
